@@ -1,0 +1,26 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "这是一个可以复用的nodejs+Express+MongoDB开发框架，使用vuejs，并利用gulp以及webpack进行前端的自动构建。",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edward",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-runtime": "^6.2.0",
+    "css-loader": "^0.23.0",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "style-loader": "^0.13.0",
+    "vue-hot-reload-api": "^1.2.2",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^7.1.7",
+    "webpack": "^1.12.9"
+  }
+}
